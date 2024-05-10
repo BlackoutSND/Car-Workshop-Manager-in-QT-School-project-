@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PickTimeSlot</class>
+ <widget class="QWidget" name="PickTimeSlot">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>751</width>
+    <height>461</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>55</red>
+        <green>56</green>
+        <blue>57</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>36</red>
+        <green>36</green>
+        <blue>36</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>55</red>
+        <green>56</green>
+        <blue>57</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>36</red>
+        <green>36</green>
+        <blue>36</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>36</red>
+        <green>36</green>
+        <blue>36</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>36</red>
+        <green>36</green>
+        <blue>36</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="5,1">
+   <item>
+    <widget class="QCalendarWidget" name="calendarWidget"/>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="5,1,0">
+     <item>
+      <widget class="QTableWidget" name="tableWidget">
+       <row>
+        <property name="text">
+         <string>8:00</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>9:00</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>10:00</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>11:00</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>12:00</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>13:00</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>14:00</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>15:00</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>16:00</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>17:00</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>18:00</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>Time Slots</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="checkState">
+         <enum>Unchecked</enum>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="checkState">
+         <enum>Unchecked</enum>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="checkState">
+         <enum>Unchecked</enum>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="checkState">
+         <enum>Unchecked</enum>
+        </property>
+       </item>
+       <item row="4" column="0">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="checkState">
+         <enum>Unchecked</enum>
+        </property>
+       </item>
+       <item row="5" column="0">
+        <property name="checkState">
+         <enum>Unchecked</enum>
+        </property>
+       </item>
+       <item row="6" column="0">
+        <property name="checkState">
+         <enum>Unchecked</enum>
+        </property>
+       </item>
+       <item row="7" column="0">
+        <property name="checkState">
+         <enum>Unchecked</enum>
+        </property>
+       </item>
+       <item row="8" column="0">
+        <property name="checkState">
+         <enum>Unchecked</enum>
+        </property>
+       </item>
+       <item row="9" column="0">
+        <property name="checkState">
+         <enum>Unchecked</enum>
+        </property>
+       </item>
+       <item row="10" column="0">
+        <property name="checkState">
+         <enum>Unchecked</enum>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Submit</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>Finish</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
